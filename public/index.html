@@ -5,6 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>نرم افزار چت</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io();
+
+        socket.on('connect', ()=>{
+            console.log('Connected to server');
+        })
+
+        socket.on('disconnect', ()=>{
+            console.log('Disconnected from server');
+        })
+    </script>
 </head>
 <body>
     <h3>نرم افزار چت فعال است.</h3>
