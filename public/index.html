@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>نرم افزار چت</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/js/index.js"></script>
+
 </head>
 <body>
     <h3>نرم افزار چت فعال است.</h3>
+
+    <ol id="messages"></ol>
+
+    <form id="message-form">
+        <input name="message" type="text" placeholder="Message" />
+        <button type="submit">send</button>
+    </form>
+
+    <script src="/js/lib/jquery-3.3.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 </html>
