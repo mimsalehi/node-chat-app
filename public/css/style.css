@@ -39,6 +39,7 @@
   }
   
   .centered-form {
+    font-family: "tahoma" !important;
     display: flex;
     align-items: center;
     height: 100vh;
@@ -53,6 +54,7 @@
   }
   
   .centered-form__form {
+    font-family: "tahoma" !important;
     background: rgba(250, 250, 250, 0.9);
     border: 1px solid #e1e1e1;
     border-radius: 5px;
@@ -60,7 +62,9 @@
     margin: 20px;
     width: 230px;
   }
-  
+  .centered-form h3{
+    font-family: "tahoma" !important;
+  }
   .form-field {
     margin: 20px 0;
   }
@@ -72,13 +76,17 @@
   .form-field label {
     display: block;
     margin-bottom: 7px;
+    font-family: "tahoma" !important;
   }
   
   .form-field input, .form-field select {
     border: 1px solid #e1e1e1;
     padding: 10px;
+    font-family: "tahoma" !important;
   }
-  
+  .form-field button{
+    font-family: "tahoma" !important;
+  }
   .chat {
     display: flex;
   }
